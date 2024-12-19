@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+.quiz {
+    background-color: blue;
+    color: white;
+    margin-bottom: 5px;
+    width: 150px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.quiz1 {
+    transition: width 0.3s ease-in-out;
+}
+
+.quiz1:hover {
+    width: 260px;
+}
+
+.quiz2 {
+    transition: all 0.3s ease-in-out;
+}
+
+.quiz2:hover {
+    background-color: rgb(12, 12, 77);
+    width: 260px;
+}
+
+.quiz3 {
+    transition: width 0.5s ease-in-out 0.3s,
+    background-color 0.5s ease-in-out;
+}
+
+.quiz3:hover {
+    background-color: rgb(12, 12, 77);
+    width: 320px;
+}
